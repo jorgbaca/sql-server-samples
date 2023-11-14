@@ -55,7 +55,7 @@ param(
 )
 
 # This list comes from the Azure Sql Server Extension project, and may not be up-to-date.
-$knownFeatureFlags = "AvailabilityGroupDiscovery", "SqlManagement", "SqlFailoverClusterInstanceDiscovery"
+$knownFeatureFlags = "AvailabilityGroupDiscovery", "SqlManagement", "RestApiManagementServices", "SqlFailoverClusterInstanceDiscovery"
 
 $mysteryFlagsList = New-Object System.Collections.ArrayList
 
